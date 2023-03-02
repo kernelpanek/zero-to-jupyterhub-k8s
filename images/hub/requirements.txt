@@ -35,9 +35,7 @@ cryptography==3.4.8
 entrypoints==0.3
     # via jupyterhub
 escapism==1.0.1
-    # via
-    #   jupyterhub-kubespawner
-    #   jupyterhub-ltiauthenticator
+    # via jupyterhub-kubespawner
 google-auth==2.1.0
     # via kubernetes
 greenlet==1.1.1
@@ -72,7 +70,7 @@ jupyterhub-kubespawner==1.1.2
     # via -r requirements.in
 jupyterhub-ldapauthenticator==1.3.2
     # via -r requirements.in
-jupyterhub-ltiauthenticator==1.2.0
+jupyterhub-ltiauthenticator==1.4.0
     # via -r requirements.in
 jupyterhub-nativeauthenticator==1.0.5
     # via -r requirements.in
@@ -160,7 +158,7 @@ requests-oauthlib==1.3.0
     #   mwoauth
 rsa==4.7.2
     # via google-auth
-ruamel.yaml==0.17.16
+ruamel-yaml==0.17.16
     # via jupyter-telemetry
 six==1.16.0
     # via
